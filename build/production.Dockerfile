@@ -14,7 +14,7 @@ RUN npm run test
 
 
 # Productive image
-FROM node:10
+FROM node:latest
 
 COPY ["package.json", "package-lock.json", "/usr/src/"]
 
