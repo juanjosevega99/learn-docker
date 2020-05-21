@@ -1,6 +1,6 @@
-FROM node:8
+FROM node:latest
 
-COPY [".", "/usr/src/"]
+COPY ["package.json", "package-lock.json", "/usr/src/"]
 
 WORKDIR /usr/src
 
