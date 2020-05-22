@@ -8,15 +8,10 @@
     "test": "mocha"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gvilarino/docker-testing.git"
+    "type": "git"
   },
-  "author": "gvilarino",
+  "author": "Juan Jose Vega",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gvilarino/docker-testing/issues"
-  },
-  "homepage": "https://github.com/gvilarino/docker-testing#readme",
   "dependencies": {
     "express": "4.16.4",
     "mongodb": "^3.5.7"
